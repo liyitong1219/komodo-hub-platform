@@ -19,7 +19,7 @@ python -m http.server 5173
 
 | 角色 | 邮箱 | 密码 |
 |---|---|---|
-| 管理员（基金会） | `admin@komodo.id` | `demo123` |
+| 管理员 | `admin@komodo.id` | `demo123` |
 | 学生 | `student@komodo.id` | `demo123` |
 | 教师 | `teacher@komodo.id` | `demo123` |
 | 公众用户 | `public@komodo.id` | `demo123` |
@@ -44,4 +44,4 @@ python -m http.server 5173
 
 ## 学术诚信记录
 
-本原型与文档由小组根据案例材料自行分析和实现。使用 AI 时，应在最终报告中按学校要求补充工具、用途、人工核验和改写说明。
+本原型与文档由小组根据案例材料自行分析和实现。
