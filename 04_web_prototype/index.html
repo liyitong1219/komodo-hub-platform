@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Komodo Hub · Conservation Commons</title>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <div id="loginRoot" class="login-root hidden"></div>
+
+  <div id="appRoot" class="app-shell hidden">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><span class="brand-mark">K</span><div><strong>Komodo Hub</strong><small id="portalLabel">Conservation commons</small></div></div>
+      <div class="role-badge" id="roleBadge"></div>
+      <nav id="nav"></nav>
+      <div class="sidebar-foot">
+        <button type="button" class="logout-btn" id="logoutBtn">Sign out</button>
+        <span class="status-dot"></span> SRS prototype<br><small>Data stored in this browser</small>
+      </div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow" id="pageEyebrow">KOMODO HUB</p>
+          <h1 id="pageTitle">Every discovery can protect wildlife.</h1>
+        </div>
+        <div class="top-actions">
+          <button type="button" class="icon-btn" id="notifBtn" title="Notifications">♧<i id="notifCount">0</i></button>
+          <div class="avatar" id="userAvatar">KH</div>
+        </div>
+      </header>
+      <div id="app"></div>
+    </main>
+  </div>
+
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-panel">
+      <div class="modal-head">
+        <h2 id="modalTitle"></h2>
+        <button type="button" class="modal-close" id="modalClose" aria-label="Close">×</button>
+      </div>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <script src="src/store.js"></script>
+  <script src="src/auth.js"></script>
+  <script src="src/views.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>
