@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" agent="Codex">
+  <diagram id="Sprint1-Observation-UseCase" name="Page-1">
+    <mxGraphModel dx="1334" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="fontFamily=Helvetica;fontSize=14;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#173C2E;" value="&lt;b&gt;Komodo Hub — Sprint 1 Use Case Diagram&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px&quot;&gt;One class sighting activity and one pupil submission&lt;/span&gt;" vertex="1">
+          <mxGeometry height="55" width="900" x="330" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="system" parent="1" style="fontFamily=Helvetica;fontSize=14;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=none;strokeColor=#3E7657;strokeWidth=2;align=left;verticalAlign=top;spacingTop=12;spacingLeft=12;fontStyle=1;fontColor=#173C2E;" value="&lt;b&gt;Komodo Hub — Sprint 1&lt;/b&gt;" vertex="1">
+          <mxGeometry height="620" width="920" x="330" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="student" parent="1" style="fontFamily=Helvetica;fontSize=14;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#FFFFFF;strokeColor=#1F4E3D;fontColor=#173C2E;strokeWidth=2;" value="Student" vertex="1">
+          <mxGeometry height="110" width="70" x="90" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="teacher" parent="1" style="fontFamily=Helvetica;fontSize=14;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#FFFFFF;strokeColor=#1F4E3D;fontColor=#173C2E;strokeWidth=2;" value="Teacher" vertex="1">
+          <mxGeometry height="110" width="70" x="90" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="AO-Ike0NYdjvOVqJWcTk-1" edge="1" parent="1" source="visitor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1364.571428571429" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="visitor" parent="1" style="fontFamily=Helvetica;fontSize=14;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#FFFFFF;strokeColor=#1F4E3D;fontColor=#173C2E;strokeWidth=2;" value="Public Visitor" vertex="1">
+          <mxGeometry height="130" width="70" x="1320" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="u1" parent="1" style="fontFamily=Helvetica;fontSize=14;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;ellipse;fillColor=#E5F3E7;strokeColor=#3E7657;fontColor=#173C2E;strokeWidth=2;" value="Join Class with&lt;br&gt;Access Code" vertex="1">
+          <mxGeometry height="75" width="220" x="470" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="u2" parent="1" style="fontFamily=Helvetica;fontSize=14;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;ellipse;fillColor=#E5F3E7;strokeColor=#3E7657;fontColor=#173C2E;strokeWidth=2;" value="Submit Sighting&lt;br&gt;for Review" vertex="1">
+          <mxGeometry height="75" width="220" x="795" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="u3" parent="1" style="fontFamily=Helvetica;fontSize=14;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;ellipse;fillColor=#E5F3E7;strokeColor=#3E7657;fontColor=#173C2E;strokeWidth=2;" value="Publish Class&lt;br&gt;Sighting Activity" vertex="1">
+          <mxGeometry height="75" width="220" x="485" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="u4" parent="1" style="fontFamily=Helvetica;fontSize=14;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;ellipse;fillColor=#E5F3E7;strokeColor=#3E7657;fontColor=#173C2E;strokeWidth=2;" value="Review Sighting and&lt;br&gt;Publish Anonymously" vertex="1">
+          <mxGeometry height="75" width="240" x="800" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="u5" parent="1" style="fontFamily=Helvetica;fontSize=14;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;ellipse;fillColor=#E5F3E7;strokeColor=#3E7657;fontColor=#173C2E;strokeWidth=2;" value="Browse Anonymous&lt;br&gt;School Library" vertex="1">
+          <mxGeometry height="75" width="235" x="700" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" parent="1" style="fontFamily=Helvetica;fontSize=14;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;shape=note;fillColor=#FFF4CC;strokeColor=#C8972D;fontColor=#604B11;align=left;spacingLeft=10;spacingTop=8;" value="&lt;b&gt;Privacy rule&lt;/b&gt;&lt;br&gt;Only an approved anonymous version is public. Student name, email, class, student ID and precise location are never shown." vertex="1">
+          <mxGeometry height="120" width="230" x="1005" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" edge="1" parent="1" source="student" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#405B4B;" target="u1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" edge="1" parent="1" source="student" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#405B4B;" target="u2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l3" edge="1" parent="1" source="teacher" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#405B4B;" target="u3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4" edge="1" parent="1" source="teacher" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#405B4B;" target="u4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5" edge="1" parent="1" source="visitor" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#405B4B;" target="u5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

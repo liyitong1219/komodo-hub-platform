@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" agent="Codex">
+  <diagram id="Sprint1-DFD-Level1" name="Page-1">
+    <mxGraphModel dx="1698" dy="1184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="950" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="fontFamily=Helvetica;fontSize=16;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#173C2E;" value="&lt;b&gt;Komodo Hub — Sprint 1 Level 1 DFD&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px&quot;&gt;Three processes and two data stores for one student sighting workflow&lt;/span&gt;" vertex="1">
+          <mxGeometry height="55" width="900" x="400" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="student" parent="1" style="fontFamily=Helvetica;fontSize=16;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#FFFFFF;strokeColor=#3E7657;strokeWidth=2;fontColor=#173C2E;" value="Student" vertex="1">
+          <mxGeometry height="65" width="190" x="30" y="357.5" as="geometry" />
+        </mxCell>
+        <mxCell id="teacher" parent="1" style="fontFamily=Helvetica;fontSize=16;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#FFFFFF;strokeColor=#3E7657;strokeWidth=2;fontColor=#173C2E;" value="Teacher" vertex="1">
+          <mxGeometry height="65" width="190" x="970" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="visitor" parent="1" style="fontFamily=Helvetica;fontSize=16;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#FFFFFF;strokeColor=#3E7657;strokeWidth=2;fontColor=#173C2E;" value="Public Visitor" vertex="1">
+          <mxGeometry height="65" width="190" x="1450" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" parent="1" style="fontFamily=Helvetica;fontSize=16;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=1;arcSize=16;fillColor=#E5F3E7;strokeColor=#3E7657;strokeWidth=2;fontColor=#173C2E;" value="&lt;b&gt;1.0&lt;/b&gt;&lt;br&gt;Submit Sighting&lt;br&gt;for Review" vertex="1">
+          <mxGeometry height="90" width="230" x="370" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" parent="1" style="fontFamily=Helvetica;fontSize=16;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;shape=datastore;fillColor=#EAF0FB;strokeColor=#4E7294;strokeWidth=2;fontColor=#173C2E;" value="&lt;b&gt;D1&lt;/b&gt;&lt;br&gt;Observation Report Store" vertex="1">
+          <mxGeometry height="80" width="240" x="800" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" parent="1" style="fontFamily=Helvetica;fontSize=16;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=1;arcSize=16;fillColor=#E5F3E7;strokeColor=#3E7657;strokeWidth=2;fontColor=#173C2E;" value="&lt;b&gt;2.0&lt;/b&gt;&lt;br&gt;Teacher Review&lt;br&gt;and Publish" vertex="1">
+          <mxGeometry height="90" width="250" x="1200" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="1" style="fontFamily=Helvetica;fontSize=16;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;shape=datastore;fillColor=#EAF0FB;strokeColor=#4E7294;strokeWidth=2;fontColor=#173C2E;" value="&lt;b&gt;D2&lt;/b&gt;&lt;br&gt;Public School Library" vertex="1">
+          <mxGeometry height="80" width="240" x="1680" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" parent="1" style="fontFamily=Helvetica;fontSize=16;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=1;arcSize=16;fillColor=#E5F3E7;strokeColor=#3E7657;strokeWidth=2;fontColor=#173C2E;" value="&lt;b&gt;3.0&lt;/b&gt;&lt;br&gt;Browse Public&lt;br&gt;School Library" vertex="1">
+          <mxGeometry height="90" width="240" x="1480" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" edge="1" parent="1" source="student" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#405B4B;fontColor=#173C2E;fontSize=14;labelBackgroundColor=#FFFFFF;" target="p1" value="Observation report">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#405B4B;fontColor=#173C2E;fontSize=14;labelBackgroundColor=#FFFFFF;" target="d1" value="Pending observation report">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#405B4B;fontColor=#173C2E;fontSize=14;labelBackgroundColor=#FFFFFF;" target="p2" value="Submitted sighting">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="395.09" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4" edge="1" parent="1" source="teacher" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#405B4B;fontColor=#173C2E;fontSize=14;labelBackgroundColor=#FFFFFF;" target="p2" value="Review outcome and feedback">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#405B4B;fontColor=#173C2E;fontSize=14;labelBackgroundColor=#FFFFFF;" value="Feedback / publication status">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1089.91" y="760" />
+              <mxPoint x="119.91" y="760" />
+            </Array>
+            <mxPoint x="1154.91" y="400" as="sourcePoint" />
+            <mxPoint x="120.000909090909" y="422.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l6" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#405B4B;fontColor=#173C2E;fontSize=14;labelBackgroundColor=#FFFFFF;" target="d2" value="Approved anonymous sighting">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l7" edge="1" parent="1" source="visitor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#405B4B;fontColor=#173C2E;fontSize=14;labelBackgroundColor=#FFFFFF;" target="p3" value="Browse request">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l8" edge="1" parent="1" source="d2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#405B4B;fontColor=#173C2E;fontSize=14;labelBackgroundColor=#FFFFFF;" target="p3" value="Anonymous published sighting">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1520" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l9" edge="1" parent="1" source="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#405B4B;fontColor=#173C2E;fontSize=14;labelBackgroundColor=#FFFFFF;" target="visitor" value="Anonymous published sighting">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="privacy" parent="1" style="fontFamily=Helvetica;fontSize=16;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;shape=note;fillColor=#FFF4CC;strokeColor=#C8972D;fontColor=#604B11;align=left;spacingLeft=10;spacingTop=8;" value="&lt;b&gt;Privacy rule&lt;/b&gt;&lt;br&gt;D1 holds the original student submission. Only the approved anonymous version moves into D2." vertex="1">
+          <mxGeometry height="90" width="420" x="930" y="820" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
