@@ -1,4 +1,4 @@
-# Sprint 1 鈥� Observation Submission, Teacher Review and Anonymous Publication
+# Sprint 1 Observation Submission, Teacher Review and Anonymous Publication
 
 ## 1. Purpose
 
