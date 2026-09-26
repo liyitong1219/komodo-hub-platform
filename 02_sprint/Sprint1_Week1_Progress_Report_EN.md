@@ -204,7 +204,7 @@ Fill in names and evidence links per your team agreement. The table below reflec
 | Li Yitong | Web | Prototype shell, login/registration, multi-portal navigation |
 
 Because this was the first week of the project, not all members were fully available. **Most Week 1 deliverables were completed by Li Yitong**, with the group participating in discussions and suggestions; **work will be divided more evenly from Week 2 onward**.
-| [Yu Yingzhuo] | Requirements and Design Analyst | Produced the Use Case Diagram, Activity Diagram, ERD, Context DFD and Level 1 DFD for the student observation submission, teacher review and anonymous publication workflow. Defined the privacy boundary between the original student report and the public anonymous report. Evidence: [`Sprint1_Observation_Workflow`](../03_design/Sprint1_Observation_Workflow/) |
+
 Everyone contributed to: topic selection, user-story discussion, page-flow input, and test-scenario ideas.
 
 ---
